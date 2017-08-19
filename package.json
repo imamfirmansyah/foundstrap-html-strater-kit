@@ -1,0 +1,36 @@
+{
+  "name": "foundstrap-html-starter-kit",
+  "version": "1.0.0",
+  "description": "foundstrap is html theme strater kit build with gulp, nunjucks and bootstrap v4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imamfirmansyah/foundstrap-html-strater-kit.git"
+  },
+  "keywords": [
+    "foundstrap",
+    "html",
+    "nunjucks",
+    "bootstrap"
+  ],
+  "author": "https://github.com/imamfirmansyah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imamfirmansyah/foundstrap-html-strater-kit/issues"
+  },
+  "homepage": "https://github.com/imamfirmansyah/foundstrap-html-strater-kit#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-nunjucks-render": "^2.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.3"
+  }
+}

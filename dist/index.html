@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Home | Bootstrap Layout with Nunjucks</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <!-- retina bookmark icon -->
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+        <a class="navbar-brand" href="/">Start Bootstrap</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <!-- for loop in Nunjucks -->
+          <li class="active">
+            <a href="index.html"><span>Home</span></a>
+          </li>
+          <li>
+            <a href="contact-us.html"><span>Contact us</span></a>
+          </li>
+          <li>
+            <a href="in-page-js.html"><span>in-page JS</span></a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1>Hello World</h1>
+        <p class="lead">Don't forget to read <code>readme.md</code> :D</p>
+        <h3>Edit From nunjucks file here bro ates lagi deh</h3>
+        <ul class="list-unstyled">
+          <li>Bootstrap v d4</li>
+          <li>jQuery v1.11.1</li>
+        </ul>
+        <a href="example.html">Click</a>
+      </div>
+    </div>
+  </div>
+  <!-- /.container -->
+  <footer class="footer">
+    <div class="container">
+      <p class="text-muted">Place sticky footer content here.</p>
+    </div>
+  </footer>
+  <!-- javascript here -->
+  <script src="js/jquery.slim.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
